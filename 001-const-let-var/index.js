@@ -16,3 +16,5 @@ const maxDaysPerYear = 366;
 // jslint считает следующую строку ошибкой, так как мы использовали var и let
 // "The let statement, which is like the var statement except that it respects block scope. You may use let or var but not both."
 let date = 58;
+let date = 60;
+// К сожалению, исключения не появляются даже при использовании ключевых слов let и const.
