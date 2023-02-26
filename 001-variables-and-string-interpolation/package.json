@@ -1,0 +1,11 @@
+{
+  "name": "001-variables-and-string-interpolation",
+  "version": "1.0.0",
+  "description": "Formatting values using string interpolation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
