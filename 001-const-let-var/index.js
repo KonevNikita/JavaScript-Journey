@@ -16,5 +16,26 @@ const maxDaysPerYear = 366;
 // jslint считает следующую строку ошибкой, так как мы использовали var и let
 // "The let statement, which is like the var statement except that it respects block scope. You may use let or var but not both."
 let date = 58;
-let date = 60;
+// let date = 60;
 // К сожалению, исключения не появляются даже при использовании ключевых слов let и const.
+
+let nums = [-1, 0, 8765, 13, -6, 9, 3, -10];
+let target = 3;
+var TwoSum = function(nums, target){
+
+    for(
+        let i = 0;
+        i < nums.length;
+        i++
+    ){
+        for(
+            let j = i + 1;
+            j < nums.length;
+            j++
+        ){
+            if(nums[i] + nums[j] == target)
+            console.log(` [${i},${j}]`);
+        }
+    }
+}
+TwoSum(nums, target);
